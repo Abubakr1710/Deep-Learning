@@ -17,10 +17,3 @@ def dataloader():
     testloader=DataLoader(testset, batch_size=32, shuffle=False)
 
     return trainloader, testloader
-
-trainloader, testloader=dataloader()
-
-dataiter=iter(trainloader)
-images, labels=dataiter.next()
-print(images.shape)
-print(labels.shape)
