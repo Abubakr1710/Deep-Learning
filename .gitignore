@@ -1,1 +1,7 @@
-# .gitignore file. This is a file that tells git which files to ignore. It is a good idea to add the .gitignore file to your repository before you add any files to it. This way you can avoid adding files that you don’t want to track. For example, if you have a file that contains your database password, you don’t want to add that to your repository. You can add the .gitignore file to your repository by running the following command:
+# .gitignore file. This is a file that tells git which files to ignore. 
+#It is a good idea to add the .gitignore file to your repository before you add any files to it. 
+#This way you can avoid adding files that you don’t want to track. 
+#For example, if you have a file that contains your database password, you don’t want to add that to your repository. #You can add the .gitignore file to your repository by running the following command:
+
+#virtualenv 
+env
